@@ -1,0 +1,5 @@
+Method,Objective ($),DCs,Solve time (s),Gap vs MILP (%)
+LP relax (weak),"26,396,849",3.33,0.002,-49.14
+MILP (exact),"51,901,927",8,0.009,0.00
+Genetic alg.,"51,901,927",8,1.179,-0.00
+Sim. annealing,"51,901,927",8,1.112,-0.00

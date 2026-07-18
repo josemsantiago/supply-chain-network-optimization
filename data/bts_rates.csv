@@ -1,0 +1,4 @@
+variable,value,units,source
+freight_cost_per_ton_mile,0.1654,USD/ton-mile,"BTS National Transportation Statistics Table 3-21, for-hire (LTL) truck, 2007"
+miles_per_driving_day,550.0,miles/day,FMCSA hours-of-service 11 h x ~50 mph effective (below BTS ~55 mph free-flow)
+circuity_factor,1.2,ratio,road-network detour vs great-circle (standard 1.2)

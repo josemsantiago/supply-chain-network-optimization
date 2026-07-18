@@ -1,0 +1,7 @@
+Source,Variable,Units,Preprocessing
+"U.S. Census Bureau, 2020 Centers of Population",State population,persons,48 contiguous states + DC; AK/HI/PR dropped
+"U.S. Census Bureau, 2020 Centers of Population",Population-center latitude/longitude,degrees,used as zone and candidate coordinates
+Derived (Census pop x company volume),Zone demand,tons/year,"pop-weighted split of 1,000,000 t/yr"
+BTS NTS Table 3-21 (2007),Freight rate,$/ton-mile,0.1654 applied to road miles
+FMCSA HOS x BTS truck speed,Daily driving range,miles/day,550; 2.0-day service cap
+Great-circle x circuity,Road distance,miles,haversine x 1.2 detour factor
